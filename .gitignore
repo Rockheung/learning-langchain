@@ -103,3 +103,50 @@ logs/
 
 # Jest coverage
 coverage/
+
+# ===== Vector Stores and ML Models =====
+
+# FAISS
+faiss_index/
+*.faiss
+*.pkl
+
+# Chroma
+.chroma/
+chroma_db/
+
+# Other vector stores
+qdrant_data/
+weaviate_data/
+pinecone_cache/
+milvus_data/
+
+# Embeddings cache
+.embeddings_cache/
+*.npy
+*.npz
+
+# Model files
+*.bin
+*.onnx
+*.pt
+*.pth
+*.h5
+*.safetensors
+*.ckpt
+
+# LangChain specific
+.langchain/
+.langgraph/
+*.sqlite3
+
+# Generated files from notebooks
+ai_intro.txt
+sample.txt
+*.csv
+output/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
